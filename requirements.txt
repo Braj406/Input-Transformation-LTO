@@ -1,0 +1,10 @@
+transformers>=4.51.0
+accelerate
+bitsandbytes
+datasets
+nltk
+pandas
+tqdm
+scikit-learn
+torch
+numpy
