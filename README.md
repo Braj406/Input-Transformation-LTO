@@ -92,6 +92,10 @@ If you're iterating on the package itself from inside Colab, `!git clone` the re
 `/content` and `!pip install -e /content/Input-Transformation-LTO` instead of installing
 from GitHub, so edits are picked up without a re-clone.
 
+## License
+
+MIT -- see [LICENSE](LICENSE).
+
 ## Secrets
 
 Notebooks read a Hugging Face token from a Colab secret (`HF_TOKEN`) via
