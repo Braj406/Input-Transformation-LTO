@@ -4,7 +4,9 @@ bitsandbytes
 datasets
 nltk
 pandas
-tqdm
-scikit-learn
-torch
 numpy
+tqdm
+torch
+scikit-learn
+scipy
+huggingface_hub
