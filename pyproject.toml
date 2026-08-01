@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lto"
+version = "0.1.0"
+description = "Latent Thinking Optimization: trajectory metrics, question transforms, and reward-guided selection over LLM reasoning candidates."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "transformers>=4.51.0",
+    "accelerate",
+    "bitsandbytes",
+    "datasets",
+    "nltk",
+    "pandas",
+    "numpy",
+    "tqdm",
+    "torch",
+    "scikit-learn",
+    "scipy",
+    "huggingface_hub",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
